@@ -1,0 +1,75 @@
+<!--/********************************************************************************
+* BTI325 – Assignment 03
+*
+* I declare that this assignment is my own work in accordance with Seneca's
+* Academic Integrity Policy:
+*
+* https://www.senecacollege.ca/about/policies/academic-integrity-policy.html
+*
+* Name: Kabir Narula____ Student ID: 127962223____ Date: _15 October 2023__
+*
+********************************************************************************/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection</title>
+  <link rel="stylesheet" href="/css/main.css" />
+
+</head>
+
+<style>
+  p {
+    color: rgba(255, 255, 255, 0.662);
+  }
+</style>
+
+<body tabindex="-1">
+  <%- include('partials/navbar', {page: '/about' }) %>
+
+    <div class="container mx-auto">
+
+      <div class="hero bg-base-200 rounded-lg p-6">
+        <div class="hero-content text-center ">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">About</h1>
+
+            <p class="py-6">Everything you want to know about me - the designer &amp; developer.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <img class="w-full rounded-lg" style="border-radius: 0%;"
+            src="https://i.pinimg.com/originals/c8/34/ec/c834ec8ebdcb5b0e6217cbd7c57a7f15.gif" alt="profile" />
+
+        </div>
+        <div class="prose text-white p-4 md:p-0">
+
+          <p>
+            Satoru Gojo, reputed as The Strongest, is a major character in the manga miniseries Jujutsu Kaisen 0
+            (originally titled Tokyo Metropolitan Curse Technical School) and its 2021 anime film adaptation of the same
+            name, as well as the sequel anime/manga series Jujutsu Kaisen.
+
+            He is the strongest Jujutsu Sorcerer in the world, even rivalling and surpassing the King of Curses Sukuna
+            himself. Like most sorcerers, Satoru strived to protect the world from the Cursed Spirits that plagued it.
+            However, Gojo saw the structure of Jujutsu Sorcerer society as flawed, and as such hoped to change it for
+            the better. To this end, he became a teacher at Jujutsu High, a school dedicated to the cultivation of new
+            generations of Jujutsu Sorcerers.
+            In the anime series, he is voiced by Yuichi Nakamura in the Japanese version of the anime adaptation and by Kaiji Tang in the English version. Nakamura's other heroic roles include Reinhard van Astrea in Re:Zero − Starting Life in Another World, Hawks in My Hero Academia, Gray Fullbuster in Fairy Tail</p>
+
+        </div>
+
+      </div>
+
+    </div>
+</body>
+
+</html>
